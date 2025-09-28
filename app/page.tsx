@@ -26,22 +26,22 @@ export default function Home() {
         </nav>
         <div className="grid grid-cols-2 gap-6 p-6">
   <div className="text-center">
-    <img src="static/images/demon-f.png" className="w-52 h-52 mx-auto mb-2" />
+    <img src="static/images/demon-f.png" className="w-62 h-52 mx-auto mb-2" />
     <p>$50</p>
     <button className="bg-blue-600 text-white px-3 py-1 rounded">Buy Now</button>
   </div>
   <div className="text-center">
-    <img src="static/images/cactus-1.png" className="w-52 h-52 mx-auto mb-2" />
+    <img src="static/images/cactus-1.png" className="w-62 h-52 mx-auto mb-2" />
     <p>$50</p>
     <button className="bg-blue-600 text-white px-3 py-1 rounded">Buy Now</button>
   </div>
   <div className="text-center">
-    <img src="static/images/demon-b.png.png" className="w-52 h-52 mx-auto mb-2" />
+    <img src="static/images/demon-b.png" className="w-62 h-52 mx-auto mb-2" />
     <p>$50</p>
     <button className="bg-blue-600 text-white px-3 py-1 rounded">Buy Now</button>
   </div>
   <div className="text-center">
-    <img src="static/images/x3.png" className="w-52 h-52 mx-auto mb-2" />
+    <img src="static/images/x3.png" className="w-62 h-52 mx-auto mb-2" />
     <p>$50</p>
     <button className="bg-blue-600 text-white px-3 py-1 rounded">Buy Now</button>
   </div>

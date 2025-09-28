@@ -24,9 +24,28 @@ export default function Home() {
             {!hasEnvVars ? <EnvVarWarning /> : <AuthButton />}
           </div>
         </nav>
-        <div>
-              <img src="static/images/demon-f.png" alt="Demon" />
-              </div>
+        <div className="grid grid-cols-2 gap-6 p-6">
+  <div className="text-center">
+    <img src="static/images/demon-f.png" className="w-32 h-32 mx-auto mb-2" />
+    <p>$50</p>
+    <button className="bg-blue-600 text-white px-3 py-1 rounded">Buy Now</button>
+  </div>
+  <div className="text-center">
+    <img src="static/images/angel-f.png" className="w-32 h-32 mx-auto mb-2" />
+    <p>$50</p>
+    <button className="bg-blue-600 text-white px-3 py-1 rounded">Buy Now</button>
+  </div>
+  <div className="text-center">
+    <img src="static/images/beast-f.png" className="w-32 h-32 mx-auto mb-2" />
+    <p>$50</p>
+    <button className="bg-blue-600 text-white px-3 py-1 rounded">Buy Now</button>
+  </div>
+  <div className="text-center">
+    <img src="static/images/spirit-f.png" className="w-32 h-32 mx-auto mb-2" />
+    <p>$50</p>
+    <button className="bg-blue-600 text-white px-3 py-1 rounded">Buy Now</button>
+  </div>
+</div>
         
         <div className="flex-1 flex flex-col gap-20 max-w-5xl p-5"> 
           <Hero />
